@@ -386,7 +386,7 @@ main {
 }
 
 .icon {
-  width: 350px;
+  width: 300px;
   height: auto;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
   border-radius: 50%;
@@ -419,7 +419,7 @@ main {
 .contact-button {
   background-color:#250902;
   color: white;
-  padding: 12px 20px;
+  padding: 12px 30px;
   font-size: 16px;
   border-radius: 5px;
   text-align: center;
