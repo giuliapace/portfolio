@@ -74,10 +74,15 @@ body {
 .skills-section, .language-section, .info-section {
   background-color: #5A0E0E;
   color: white;
-  padding: 10px 0;
   font-size: 24px;
   font-weight: bold;
 }
+
+.info-section {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
 
 .skills, .languages, .info {
   background-color: #E5C3A6;
@@ -85,6 +90,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 200px;
+  border: none;
 }
 
 .skill, .info-item {
@@ -107,11 +113,26 @@ body {
   font-size: 24px;
 }
 
+.skills-section, .language-section {
+  margin-bottom: 0; /* Evita spazi che possano creare effetti visivi strani */
+}
+
+.language-section {
+    margin-top: 30px; /* Aggiunge spazio sopra la sezione */
+    margin-bottom: 0px;
+}
+
+.info-section {
+    margin-top: 30px; /* Aggiunge spazio sopra la sezione "Ulteriori Info" */
+    margin-bottom: 0px;
+}
+
+
 /* Linguaggi */
 .languages {
   display: flex;
   justify-content: center;
-  gap:px;
+  gap: 400px;
   padding: 20px;
 }
 
@@ -373,8 +394,12 @@ main {
 
 /* SEZIONE CONTATTI */
 .contacts-section {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  height: 60vh; /* Regola per un buon bilanciamento */
 }
 
 .contacts-section h2 {
