@@ -472,6 +472,11 @@ body {
   display: block;
 }
 
+.contaminazioni-paragrafo, .illustrazioni-paragrafo{
+  margin-top: 25px;
+}
+
+
 /* Sezione progetti - Layout immagini + testo laterale */
 .projects {
   width: 675px;
@@ -493,9 +498,9 @@ body {
 
 /* Immagini più piccole e uniformi */
 .project_layout img {
-  width: 675px;
+  width: 836px;
   height: auto;
-  max-width: 300px;
+  max-width: 450px;
 }
 
 /* Testo allineato a destra */
@@ -523,10 +528,9 @@ body {
 
 /* Riduzione dimensione immagini */
 .annuncio-img img {
-  width: 675px;
+  width: 836px;
   height: auto;
-  max-width: 250px;
-  border-radius: 10px;
+  max-width: 450px;
 }
 
 /* Testo allineato alla seconda immagine */
@@ -558,7 +562,7 @@ main {
 
 .icon {
   width: 300px;
-  height: auto;
+  height: 300px;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
   border-radius: 50%;
 }
@@ -623,6 +627,7 @@ main {
 /* Pulsante HOME e PROJECT */
 .home-button {
   margin-top: 40px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -634,6 +639,7 @@ main {
 }
 .project-button {
   margin-top: 40px;
+  margin-bottom: 30px;
   text-align: center;
 }
 
@@ -656,10 +662,7 @@ footer {
     text-align: center;
 }
 
-/* Responsive */
-@media (max-width: 1024px) {
-  /* header size remains unchanged */
-}
+
 
 @media (max-width: 768px) {
   .profile-content {
