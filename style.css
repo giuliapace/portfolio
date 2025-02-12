@@ -385,7 +385,7 @@ body {
   position: relative;
   width: 80%;
   max-width: 700px;
-  border-radius: 30px;
+  border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
 }
