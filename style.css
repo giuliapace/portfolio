@@ -413,6 +413,7 @@ body {
   font-size: 16px;
   font-weight: bold;
   color: white;
+  margin-left: 15px;
 }
 
  /* Header con icona e testo */
@@ -476,7 +477,6 @@ body {
   margin-top: 25px;
 }
 
-
 /* Sezione progetti - Layout immagini + testo laterale */
 .projects {
   width: 675px;
@@ -488,59 +488,10 @@ body {
   gap: 50px;
 }
 
-/* Layout con immagini a sinistra e testo a destra */
-.project_layout {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-}
-
-/* Immagini più piccole e uniformi */
-.project_layout img {
-  width: 836px;
-  height: auto;
-  max-width: 450px;
-}
-
-/* Testo allineato a destra */
-.project_layout p {
-  width: 50%;
-  font-size: 16px;
-  line-height: 1.4;
-  text-align: left;
-}
-
-/* Annunci brutti - Allineamento come in esempio */
-.project_layout_annuncio-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-}
-
-/* Colonna immagini per annunci */
-.annuncio-img {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-/* Riduzione dimensione immagini */
-.annuncio-img img {
-  width: 836px;
-  height: auto;
-  max-width: 450px;
-}
-
-/* Testo allineato alla seconda immagine */
-.annuncio-text {
-  width: 50%;
-  font-size: 16px;
-  line-height: 1.4;
-  text-align: left;
-  position: relative;
-  top: -20px;
+.layout-paragrafo{
+  margin-top: 45px;
+  margin-left: 45px;
+  margin-right: 45px;
 }
 
 /* MAIN */
@@ -690,4 +641,5 @@ footer {
     width: 100%;
   }
 }
+
 
