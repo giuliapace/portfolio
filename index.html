@@ -11,31 +11,17 @@
     <header>
         <nav role="navigation">
             <div id="menuToggle">
-              <!--
-              A fake / hidden checkbox is used as click reciever,
-              so you can use the :checked selector on it.
-              -->
+             
               <input type="checkbox" id="menuCheckbox" />
               
-              <!--
-              Some spans to act as a hamburger.
               
-              They are acting like a real hamburger,
-              not that McDonalds stuff.
-              -->
               <span></span>
               <span></span>
               <span></span>
               
-              <!--
-              Too bad the menu has to be inside of the button
-              but hey, it's pure CSS magic.
-              -->
+             
               <ul id="menu">
-                <!-- 
-                We can use a label here to close upon click (when doing same page navigation), this
-                does require a slight bit of JS.
-                -->
+               
                 <li>
                   <a href="#">
                     <label for="menuCheckbox" onclick="this.parentNode.click();">HOME</label>
@@ -47,12 +33,12 @@
                   </a>
                 </li>
                 
-                <!-- These just close the menu -->
+               
                 <li><label for="menuCheckbox"><a href="contacts.html">CONTACTS</a></label></li>
               </ul>
             </div>
         </nav>
-        <div class="header-title"><a href=index.html>GIULIA PACE</a></div>
+        <div class="header-title"><a href=index.html class="home-button">GIULIA PACE</a></div>
     </header>
       
 
@@ -68,7 +54,7 @@
     </section>
 
     <section class="skills-section">
-        <h2>COMPETENZE TECNICHE</h2>
+        <h2 class="competenze-titolo">COMPETENZE TECNICHE</h2>
         <div class="skills">
             <div class="skill">
                 <img src="immaginiwebdesign/camera_icon.png" alt="Fotografia">
@@ -86,7 +72,7 @@
     </section>
 
     <section class="language-section">
-        <h2>COMPETENZE LINGUISTICHE</h2>
+        <h2 class="competenze-titolo">COMPETENZE LINGUISTICHE</h2>
         <div class="languages">
             <div class="language">
                 <p>INGLESE</p>
@@ -110,15 +96,15 @@
     </section>
 
     <section class="info-section">
-        <h2>ULTERIORI INFO</h2>
+        <h2 class="competenze-titolo">ULTERIORI INFO</h2>
         <div class="info">
             <div class="info-item">
                 <img src="immaginiwebdesign/projects_icon.png" alt="Projects">
-                <p><a href=project.html>PROJECTS</a></p>
+                <p><a href=project.html class="project-button">PROJECTS</a></p>
             </div>
             <div class="info-item">
                 <img src="immaginiwebdesign/contacts_icon.png" alt="Contacts">
-                <p><a href=contacts.html>CONTACTS</a></p>
+                <p><a href=contacts.html class="contacts-button">CONTACTS</a></p>
             </div>
         </div>
     </section>

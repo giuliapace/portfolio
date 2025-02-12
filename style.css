@@ -33,6 +33,7 @@ body {
 }
 
 .menu {
+  font-family: Helvetica Now Text;
   font-size: 24px;
   cursor: pointer;
 }
@@ -200,6 +201,14 @@ body {
   text-transform: uppercase;
 }
 
+.home-button{
+  color: white;
+}
+
+.project-button, .contacts-button{
+  color:#5A0E0E; 
+}
+
 /* Profilo */
 .profile {
   background-color: #E5C3A6;
@@ -216,8 +225,8 @@ body {
 }
 
 .profile img {
-  width:400px;
-  height: 400px;
+  width:350px;
+  height: 350px;
   border-radius: 50%;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
 }
@@ -242,10 +251,13 @@ body {
   padding-bottom: 0;
 }
 
+.competenze-titolo{
+  margin-left: 15px;
+}
 
 .skills, .languages, .info {
   background-color: #E5C3A6;
-  padding: 10px;
+  padding: 55px;
   display: flex;
   justify-content: center;
   gap: 200px;
