@@ -352,7 +352,7 @@ body {
 
 .project-icon {
   width: 200px;
-  height: 200px;
+  height: auto;
   border-radius: 50%;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
 }
@@ -428,13 +428,10 @@ body {
 }
 
 .project-icon {
-  width: 250px; 
-  height: 250px; 
-  max-width: 100%; 
-  object-fit: cover; 
-  border-radius: 50%; 
-  display: block;
-  margin: 0 auto; 
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
 }
 
 .project-description {
@@ -515,14 +512,10 @@ main {
 }
 
 .icon {
-  width: 250px; 
-  height: 250px; 
-  max-width: 100%; 
-  object-fit: cover; 
-  border-radius: 50%; 
-  display: block;
-  margin: 0 auto; 
-  box-shadow:0 8px 12px rgba(0, 0, 0, 0.3) ;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
 }
 
 /* SEZIONE CONTATTI */
@@ -624,16 +617,29 @@ footer {
 
 
 @media (max-width: 768px) {
-  .project-icon {
-      width: 200px;
-      height: 200px;
+  .profile-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .projects-container {
+    width: 100%;
+  }
+  .skills, .languages, .info {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .dot {
+    width: 30px;
+    height: 30px;
   }
 }
 
 @media (max-width: 480px) {
-  .project-icon {
-      width: 200px;
-      height: 200px;
+  .profile img {
+    width: 80%;
+  }
+  .contact-buttons {
+    width: 100%;
   }
 }
 
