@@ -260,7 +260,7 @@ body {
   padding: 55px;
   display: flex;
   justify-content: center;
-  gap: 200px;
+  gap: 300px;
   border: none;
 }
 
@@ -285,17 +285,18 @@ body {
 }
 
 .skills-section, .language-section {
-  margin-bottom: 0; /* Evita spazi che possano creare effetti visivi strani */
+  margin-top: 40px;
+  margin-bottom: 40px; /* Evita spazi che possano creare effetti visivi strani */
 }
 
 .language-section {
-    margin-top: 30px; /* Aggiunge spazio sopra la sezione */
-    margin-bottom: 0px;
+    margin-top: 40px; /* Aggiunge spazio sopra la sezione */
+    margin-bottom: 40px;
 }
 
 .info-section {
-    margin-top: 30px; /* Aggiunge spazio sopra la sezione "Ulteriori Info" */
-    margin-bottom: 0px;
+    margin-top: 40px; /* Aggiunge spazio sopra la sezione "Ulteriori Info" */
+    margin-bottom: 40px;
 }
 
 
@@ -578,8 +579,8 @@ main {
 
 /* Pulsante HOME e PROJECT */
 .home-button {
-  margin-top: 40px;
-  margin-bottom: 30px;
+  margin-top: 60px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -590,8 +591,8 @@ main {
   font-size: 14px;
 }
 .project-button {
-  margin-top: 40px;
-  margin-bottom: 30px;
+  margin-top: 60px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -601,6 +602,33 @@ main {
   font-weight: bold;
   font-size: 14px;
 }
+
+.home-button-contatti{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.home-button-contatti a{
+  text-decoration: none;
+  color: #640D14;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.project-button-contatti{
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.project-button-contatti a{
+  text-decoration: none;
+  color: #640D14;
+  font-weight: bold;
+  font-size: 14px;
+}
+
 
 /* FOOTER */
 footer {
