@@ -385,7 +385,7 @@ body {
   position: relative;
   width: 80%;
   max-width: 700px;
-  border-radius: 50%;
+  border-radius: 30px;
   overflow: hidden;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
 }
@@ -639,6 +639,22 @@ footer {
   }
   .contact-buttons {
     width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .icon {
+      width: 200px;
+      height: 200px;
+  }
+
+  .contacts-section h2 {
+      font-size: 20px;
+  }
+
+  .contact-button {
+      font-size: 14px;
+      padding: 8px;
   }
 }
 
