@@ -178,6 +178,10 @@ body {
   font-weight: bold;
 }
 
+.menu-text{
+  font-family: Helvetica Now Text;
+}
+
 #menu li label
 {
   cursor: pointer;
