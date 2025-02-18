@@ -237,7 +237,7 @@ body {
 
 .profile p {
   max-width: 400px;
-  font-size: 24px;
+  font-size: 16px;
   text-align: left;
 }
 
@@ -284,25 +284,25 @@ body {
 }
 
 .skill p, .info-item p {
-  margin-top: 5px;
+  margin-top: 15px;
   font-weight: bold;
   color: #5A0E0E;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 .skills-section, .language-section {
-  margin-top: 40px;
-  margin-bottom: 40px; /* Evita spazi che possano creare effetti visivi strani */
+  margin-top: 50px;
+  margin-bottom: 50px; /* Evita spazi che possano creare effetti visivi strani */
 }
 
 .language-section {
-    margin-top: 40px; /* Aggiunge spazio sopra la sezione */
-    margin-bottom: 40px;
+    margin-top: 50px; /* Aggiunge spazio sopra la sezione */
+    margin-bottom: 50px;
 }
 
 .info-section {
-    margin-top: 40px; /* Aggiunge spazio sopra la sezione "Ulteriori Info" */
-    margin-bottom: 40px;
+    margin-top: 50px; /* Aggiunge spazio sopra la sezione "Ulteriori Info" */
+    margin-bottom: 50px;
 }
 
 
@@ -315,7 +315,7 @@ body {
 }
 
 .language p {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: bold;
   color: #5A0E0E;
 }
@@ -323,12 +323,12 @@ body {
 .dots {
   display: flex;
   gap: 8px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .dot {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
 }
@@ -369,7 +369,7 @@ body {
 }
 
 .project-description h2 {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
   color: #5A0E0E;
 }
@@ -446,7 +446,7 @@ body {
 }
 
 .project-description h2 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   color: #5A0E0E;
 }
@@ -536,7 +536,7 @@ main {
 }
 
 .contacts-section h2 {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
   margin-bottom: 20px;
   color: #5A0E0E;
