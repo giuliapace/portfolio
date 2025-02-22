@@ -562,6 +562,7 @@ main {
   border-radius: 5px;
   text-align: center;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .contact-button:hover {
