@@ -669,9 +669,9 @@ footer {
     width: 100%;
   }
   .project-header {
-    font-size: 5px;
+    font-size: 14px;
     flex-direction: column;
-    text-align: center;
+    text-align: right;
   }
   .skills, .languages, .info {
     flex-direction: column;
