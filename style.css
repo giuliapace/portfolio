@@ -676,6 +676,14 @@ footer {
     width: 30px;
     height: 30px;
   }
+
+  .project-header{
+    flex-direction: column;
+    text-align: right;
+
+
+
+}
 }
 
 @media (max-width: 1024px) {
@@ -694,8 +702,8 @@ footer {
 @media (max-width: 768px) {
   .icon {
       flex-direction: column;
-      width: 200px;
-      height: 200px;
+      width: 180px;
+      height: 180px;
   }
 
   .contacts-section h2 {
