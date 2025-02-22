@@ -658,8 +658,8 @@ footer {
 
 
 
-@media screen and (min-width: 375px) {
-  .profile-content {
+@media screen and (min-width: 375px)  {
+  .profile-content{
     width: 452px;
     height: 452px;
     flex-direction: column;
@@ -668,8 +668,10 @@ footer {
   .projects-container {
     width: 100%;
   }
-  .project-description{
-    font-size: 14px;
+  .project-header {
+    font-size: 5px;
+    flex-direction: column;
+    text-align: center;
   }
   .skills, .languages, .info {
     flex-direction: column;
@@ -679,20 +681,10 @@ footer {
     width: 30px;
     height: 30px;
   }
+
 }
 
-@media (max-width: 1024px) {
-  .profile img {
-    flex-direction: column;
-    text-align: center;
-    width: 80%;
-  }
-  .contact-buttons {
-    width: 100%;
-    flex-direction: column;
-    text-align: center; 
-  }
-}
+
 
 @media screen and (min-width: 375px){
   .icon {
@@ -712,6 +704,11 @@ footer {
       text-align: center; 
       font-size: 14px;
       padding: 8px;
+  }
+
+  .contact-buttons {
+    flex-direction: column;
+    text-align: center; 
   }
 }
 
