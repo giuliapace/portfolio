@@ -682,7 +682,7 @@ footer {
   .profile img {
     flex-direction: column;
     text-align: center;
-    width: 80%;
+    width: 100%;
   }
   .contact-buttons {
     width: 100%;
