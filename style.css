@@ -699,11 +699,12 @@ footer {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .icon {
       flex-direction: column;
-      width: 180px;
-      height: 180px;
+      width: 150px;
+      height: 150px;
+      margin-left: 12px;
   }
 
   .contacts-section h2 {
