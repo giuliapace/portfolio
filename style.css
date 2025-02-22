@@ -566,6 +566,7 @@ main {
   text-decoration: none;
 }
 
+
 .contact-button:hover {
   background-color: #640D14;
 }
@@ -702,8 +703,8 @@ footer {
 @media (max-width: 600px) {
   .icon {
       flex-direction: column;
-      width: 150px;
-      height: 150px;
+      width: 155px;
+      height: 155px;
       margin-left: 12px;
   }
 
