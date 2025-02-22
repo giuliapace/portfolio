@@ -542,11 +542,6 @@ main {
   color: #5A0E0E;
 }
 
-.icon-container, .contacts-section{
-  display: flex;
-  justify-content: center;
-  margin-left: 300px;
-}
 
 /* BOTTONI CONTATTI */
 .contact-buttons {
